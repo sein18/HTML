@@ -139,3 +139,61 @@
     </form>
 ```
 
+---
+
+<h2> 시맨틱 구조
+
+* CSS
+
+```html
+<style type="text/css"> <!-- 스타일지정 -->
+        div{
+            border: 1px dashed red;
+            margin: 10px;
+        }
+
+        #container{
+            height: 400px;
+        }
+        #left{
+            width: 60%;
+            height: 85%;
+            float: left;
+        }
+        #right{
+            width: 30%;
+            height: 85%;
+            float: right;
+        }
+    </style>
+```
+
+* 시맨틱 구조
+
+```html
+<body>
+    <div id="header">
+        <h1>거어어어어어엄색</h1>
+        <div>
+            <span><a href="html05_a.html">메뉴1</a></span>
+            <span><a href="html09_form01.html">메뉴2</a></span>
+            <span><a href="html04_img.html">메뉴3</a></span>
+            <span><a href="html10_form02.html">메뉴4</a></span>
+        </div>
+    </div>
+    
+    <div id="container">
+        <div id="left">
+            <p>왼쪽 본문 내용</p>
+        </div>
+        <div id="right">
+            <p>오른쪽 본문 내용</p>        
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>copyright &copy; all rights reserved...</p>
+    </div>
+</body>
+```
+
